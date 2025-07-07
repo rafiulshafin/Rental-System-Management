@@ -1,0 +1,11 @@
+2025-07-02 13:49:14.082  INFO 50792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-02 13:49:14.084  INFO 50792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-02 13:49:14.087  INFO 50792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-07-02 13:49:14.354  INFO 50792 --- [http-nio-8080-exec-1] com.Rental.aspect.LoggingAspect          : User: anonymousUser accessed AuthController.register(..) at 2025-07-02T13:49:14.354046900
+2025-07-02 13:49:14.392  INFO 50792 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-02 13:49:14.713  INFO 50792 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-02 13:52:04.522  INFO 50792 --- [http-nio-8080-exec-6] com.Rental.aspect.LoggingAspect          : User: anonymousUser accessed AuthController.authenticateUser(..) at 2025-07-02T13:52:04.522685800
+2025-07-02 13:52:04.938 ERROR 50792 --- [http-nio-8080-exec-6] c.R.s.JwtAuthenticationEntryPoint        : Responding with unauthorized error. Message - Bad credentials
+2025-07-02 13:52:07.904  INFO 50792 --- [http-nio-8080-exec-5] com.Rental.aspect.LoggingAspect          : User: anonymousUser accessed AuthController.register(..) at 2025-07-02T13:52:07.904477
+2025-07-02 13:54:47.781  INFO 50792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-02 13:54:47.788  INFO 50792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
