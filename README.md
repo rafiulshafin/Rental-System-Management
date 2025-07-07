@@ -4,7 +4,7 @@ This Java Spring Boot-based application provides a complete backend solution for
 
 Core Features:
 ***Authentication System
-1.Register, Login, Change Password, Forgot Password
+1.Register, Login, Change Password, Forgot Password /n
 2.Role-based access control (Admin/User)
 3.JWT-secured endpoints
 
